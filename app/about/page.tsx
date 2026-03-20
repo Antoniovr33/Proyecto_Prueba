@@ -5,25 +5,53 @@ export default function AboutPage() {
     <section className="section about-page">
       <SectionTitle
         title="Sobre nosotros"
-        subtitle="Una agencia ficticia para este proyecto"
+        subtitle="Una agencia de Viajes"
       />
 
       <div className="card about-card">
         <p>
-          TravelNow es una página web de ejemplo desarrollada con Next.js para
-          practicar la creación de rutas, componentes, estilos y navegación.
+          En TravelNow creemos que viajar es mucho más que desplazarse de un lugar a
+          otro: es descubrir nuevas culturas, vivir experiencias únicas y crear
+          recuerdos inolvidables.
         </p>
 
         <p>
-          El objetivo del proyecto es entender la estructura básica de una
-          aplicación moderna de frontend y organizar varias páginas dentro del
-          App Router.
+          Nuestro objetivo es ayudarte a encontrar el destino perfecto para cada
+          ocasión, ya sea una escapada de fin de semana, unas vacaciones en familia o
+          una aventura internacional llena de emoción.
         </p>
 
         <p>
-          Esta web incluye una portada, una sección de destinos, una página de
-          ofertas, una sección sobre la empresa y un formulario de contacto.
+          Trabajamos para ofrecerte una experiencia cómoda, clara y atractiva, con
+          destinos seleccionados, ofertas especiales y un servicio cercano pensado para
+          inspirarte en cada paso de tu próximo viaje.
         </p>
+      </div>
+
+      <div className="about-values">
+        <div className="value-box">
+          <h3>Nuestra misión</h3>
+          <p>
+            Inspirar a los viajeros a descubrir nuevos lugares con una plataforma
+            clara, moderna y fácil de usar.
+          </p>
+        </div>
+
+        <div className="value-box">
+          <h3>Nuestra visión</h3>
+          <p>
+            Convertir TravelNow en una referencia de ejemplo para aprender
+            tecnologías frontend de forma práctica.
+          </p>
+        </div>
+
+        <div className="value-box">
+          <h3>Nuestros valores</h3>
+          <p>
+            Diseño limpio, navegación sencilla, contenido atractivo y buena
+            organización del código.
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -37,7 +37,7 @@ export default function ContactPage() {
     <section className="section">
       <SectionTitle
         title="Contacto"
-        subtitle="Formulario de ejemplo con useState"
+        subtitle="Formulario de contacto para consultas y sugerencias"
       />
 
       <form className="contact-form" onSubmit={handleSubmit}>
